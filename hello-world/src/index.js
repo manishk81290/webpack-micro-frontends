@@ -1,5 +1,5 @@
 //import _ from 'lodash';
-import React from 'react';
+//import React from 'react';
 import addImage from './add-image';
 import helloWorld from './hello-world';
 import Button from './components/ButtonComponent/Button';
@@ -8,5 +8,6 @@ const hdr=new Header();
 hdr.render("INDEX PAGE",process.env.NODE_ENV);
 helloWorld();
 addImage();
+console.log('FOR CHECKING LINTING ERROR');
 const btn=new Button();
 btn.render();
