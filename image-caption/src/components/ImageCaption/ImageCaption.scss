@@ -1,0 +1,11 @@
+$caption-font-size:26px;
+$caption-color:#560329;
+
+.caption-style{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: $caption-font-size;
+    color:$caption-color;
+    margin:0;
+    padding:5px;
+    border-left:5px solid #560329;
+}

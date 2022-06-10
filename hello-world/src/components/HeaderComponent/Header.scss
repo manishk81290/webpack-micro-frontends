@@ -1,0 +1,10 @@
+$header-color:#000000;
+$header-background-color:blue;
+$header-font-size:35px;
+
+h1{
+    color:$header-color;
+    background-color: $header-background-color;
+    font-size: $header-font-size;
+    padding: 5px;
+}

@@ -1,0 +1,8 @@
+$image-width:300px;
+$image-height:300px;
+
+.img-style{
+    height:$image-height;
+    width:$image-width;
+    border-radius: 10px;
+}
